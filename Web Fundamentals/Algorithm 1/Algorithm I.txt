@@ -1,0 +1,14 @@
+Problem 1:
+    Console: 0, 1, 2, 3, 4
+Problem 2:
+    Console: 1, 3, 5
+Problem 3:
+    Console: 3, 7
+Problem 4:
+    Console: 5, 8
+Problem 5:
+    Console: 2, 5, 3, 8
+Problem 6:
+    Console: 15, 10, 10
+Problem 7:
+    Console: 15, 10, 20
