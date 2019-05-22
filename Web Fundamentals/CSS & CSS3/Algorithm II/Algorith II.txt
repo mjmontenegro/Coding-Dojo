@@ -1,0 +1,134 @@
+Code Samples:
+
+Problem 1:
+    'Dojo'
+Problem 2:
+    'hello'
+    'x is 15'
+Problem 3:
+    'n is 3'
+    'x is 15'
+Problem 4:
+    'n is 3'
+    'n is 5'
+    'x is 16'
+Problem 5:
+    'c is 5'
+    'c is 8'
+    'x is 13'
+Problem 6:
+    'c is 5'
+    'c is 3'
+    'c is 6'
+    'c is 3'
+    'c is 5'
+    'c is 8'
+    'x is 19'
+Problem 7:
+    '15'
+    '15'
+
+
+Assignment:
+
+Problem 1:
+    '2'
+    '3'
+Problem 2:
+    '6'
+    '10'
+Problem 3:
+    '3'
+    '7'
+Problem 4:
+    '15'
+    '15'
+    '10'
+    '15'
+Problem 5:
+    '0'
+    '2'
+    '4'
+    '6'
+    '8'
+    '10'
+    '12'
+    '14'
+Problem 6:
+    '0'
+    '1'
+    '0'
+    '2'
+Problem 7:
+    '0'
+    '1'
+    '2'
+    '0'
+    '2'
+    '4'
+Problem 8:
+    '0'
+    '1'
+    '2'
+    '3'
+    '4'
+    '0'
+    '2'
+    '4'
+    '6'
+    '8'
+    '15'
+
+Part 2:
+
+Print 1 to x:
+function printUpTo(x){
+  // your code here
+  if( x < 0 ) {
+      console.log('negative number');
+      return false;
+  }
+  for( var i = 1; i <= x; i +=1 ) {
+      console.log(i);
+  }
+}
+printUpTo(1000); // should print all the integers from 1 to 1000
+var y = printUpTo(-10); // should return false
+console.log(y); // should print false
+
+PrintSum:
+function printSum(x){
+  var sum = 0;
+  //your code here
+  for( var i=0; i <= x; i +=1 ) {
+      sum += i;
+      console.log(i,sum);
+  }
+  return sum
+}
+y = printSum(255) // should print all the integers from 0 to 255 and with each integer print the sum so far.
+console.log(y) // should print 32640
+
+PrintSumArray:
+function printSumArray(x){
+  var sum = 0;
+  for(var i=0; i<x.length; i++) {
+    //your code here
+    sum += x[i];
+  }
+  return sum;
+}
+console.log( printSumArray([1,2,3]) ); // should log 6
+
+Bonus: LargestElement
+function largestElement() {
+    var largest = -Infinity;
+    for( var i = 0; i < arr.length; i += 1 ) {
+        if( arr[i] > largest ) {
+            largest = arr[i];
+        }
+    }
+    return largest;
+}
+var arr = [1,30,5,7]
+console.log(largestElement(arr));
