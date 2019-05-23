@@ -1,0 +1,69 @@
+Problem 1:
+    5
+
+Problem 2:
+    2,2,5
+    2,2,5
+    6,8,5
+    6,8,5
+
+Problem 3:
+    2,2,5
+
+Problem 4:
+    true
+Problem 5:
+    Coding, Coding, Coding, Coding
+Problem 6:
+    Coding, Coding, Dojo, 4
+Problem 7:
+    10
+Problem 8:
+    if given an array it would print out the sum of its elements
+
+
+Part 2
+
+Problem 1:
+
+function printAverage(x){
+   var sum = 0;
+   // your code here
+   for( var i = 0; i < x.length; i++){
+       sum += x[i];
+   }
+   console.log( sum / arr.length );
+}
+y = printAverage([1,2,3]);
+console.log(y); // should log 2
+  
+y = printAverage([2,5,8]);
+console.log(y); // should log 5
+
+Problem 2:
+
+function returnOddArray(){
+   // your code here
+   var arr = [];
+   for(var i = 1; i <= 255; i +=2){
+       arr.push(i);
+   }
+   return arr;
+}
+y = returnOddArray();
+console.log(y); // should log [1,3,5,...,253,255]
+
+Problem 3:
+
+function squareValue(x){
+   // your code here
+for (var i = 0; i <= ax.length; i++){
+    x[i] = x[i] ** 2;
+}
+   return x;
+}
+y = squareValue([1,2,3]);
+console.log(y); // should log [1,4,9]
+  
+y = squareValue([2,5,8]);
+console.log(y); // should log [4,25,64]
