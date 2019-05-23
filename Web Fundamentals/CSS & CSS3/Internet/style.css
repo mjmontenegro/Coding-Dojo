@@ -1,0 +1,166 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    /* outline: 1px dotted red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 970px;
+    background-image: linear-gradient(#e3e3e3, #ffffff);
+    position: absolute;
+}
+.overlap {
+    width:90px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    vertical-align: top;
+}
+h1 {
+    display: inline-block;
+    font-size: 42px;
+    font-weight: normal;
+    vertical-align: top;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+h2 {
+    background-image: linear-gradient(#22659d, #4d81ac, #22659d);
+    color: white;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 30px;
+}
+.sidebar {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+.buttons {
+    display: inline-block;
+}
+.sidebar hr {
+    padding: 1px;
+    margin: 20px 0px 20px 0px;
+    background-color: grey;
+}
+.main {
+    display: inline-block;
+    width: 300px;
+}
+.advertisement {
+    background-image: url(images/ad_background.png);
+    height: 270px;
+    color: white;
+    text-align: center;
+}
+.advertisement img {
+    width: 75px;
+    padding: 5px 0px 15px 0px;
+}
+
+.advertisement button {
+    background-color: #1dc6df;
+    color: white;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.video {
+    color: white;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #4481b2;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.more {
+    color: white;
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #ed9223;
+    margin-top: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.red {
+    color: red;
+}
+.highlight {
+    color: #21659d;
+}
+.sidebar h3 {
+    font-size: 16px;
+    padding: 10px 5px;
+}
+.sidebar p {
+    font-size: 16px;
+    padding: 5px 0px 15px 0px;
+}
+.advertisement p {
+    font-size: 22px;
+    padding-top: 10px;
+}
+.main {
+    vertical-align: top;
+    width: 765px;
+}
+.house {
+    width: 20px;
+    display: inline-block;
+}
+.main h3 {
+    display: inline-block;
+    color: #21659d;
+}
+.phone {
+    width: 35px;
+    position: absolute;
+    right: 170px;
+    top: 130px
+}
+.main h5 {
+    color: grey;
+    position: absolute;
+    right: 15px;
+    top: 125px;
+    font-size: 10px;
+}
+.main h6 {
+    color: grey;
+    position: absolute;
+    right: 15px;
+    font-size: 10px;
+    top: 160px;
+}
+.main h1 {
+    color: #1dc6df;
+    position: absolute;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 115px;
+}
+.main hr {
+    margin-top: 35px;
+    width: 730px;
+    padding: 0px 10px 0px 10px;
+}
+.strong {
+    font-weight: bold;
+}
+.server-image {
+    width: 250px;
+}
+.html-image {
+    width: 100px;
+    display: inline-block;
+}
+.footer {
+    background-color: grey;
+}
+
+/* linear-gradient: transparent from 20%  #21659d*/
