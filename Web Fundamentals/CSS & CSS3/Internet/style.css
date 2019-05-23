@@ -154,13 +154,50 @@ h2 {
 }
 .server-image {
     width: 250px;
+    margin-left: 260px;
 }
 .html-image {
     width: 100px;
     display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px 10px 10px;
 }
 .footer {
-    background-color: grey;
+    /* background-color: grey; */
+    margin-top: 20px;
+    border: 5px solid #0384e1;
+    border-bottom-style: none;
+}
+.main h4 {
+    color: #21659d;
+    padding: 5px 0px 5px 0px;
+}
+.main .highlight {
+    color: #1dc6df;
+}
+.main p {
+    padding: 5px 0px 5px 0px;
+}
+.main ul {
+    padding-left: 45px;
+}
+.main li {
+    padding-top: 5px;
+}
+.main ol {
+    margin-left: 40px;
+}
+.footer-right {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+}
+.footer-right h4 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer-right p {
+    font-size: 14px;
 }
 
 /* linear-gradient: transparent from 20%  #21659d*/
