@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+</body>
+<div>
+    <div class="box click_box">
+        <h1>
+            Click
+        </h1>
+        <button class="btn click_btn" id="show_click">
+            Click
+        </button>
+        <p class="content click_content" id="click_change">
+            Click the button to change the text color
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Hide
+        </h1>
+        <button class="btn click_btn" id="show_hide">
+            Hide
+        </button>
+        <p class="content click_content" id="hide_change">
+            Click the button to hide the text
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Show
+        </h1>
+        <button class="btn click_btn" id="show_show">
+            Show
+        </button>
+        <p class="content click_content">
+            Click the button to show the pic
+        </p>
+        <img id="show_change"
+            src="http://via.placeholder.com/300"
+            alt="Picture of Instructor">
+    </div>
+    <hr>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Toggle
+        </h1>
+        <button class="btn click_btn" id="show_toggle">
+            Toggle
+        </button>
+        <p class="content click_content">
+            Click the button to toggle showing or hiding the text
+        </p>
+        <img id="toggle_change"
+            src="http://via.placeholder.com/300"
+            alt="Picture of Instructor">
+            <hr>
+        </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Slide Down
+        </h1>
+        <button class="btn click_btn" id="show_slide_down">
+            Slide Down
+        </button>
+        <p class="content click_content">
+            Click the button to slide down the picture;
+        </p>
+        <img id="slide_down_change"
+            src="http://via.placeholder.com/300"
+            alt="Picture of Instructor">
+            <hr>
+        </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Slide Up
+        </h1>
+        <button class="btn click_btn" id="show_slide_up">
+            Slide Up
+        </button>
+        <p class="content click_content">
+            Click the button to slide up the picture;
+        </p>
+        <img id="slide_up_change"
+            src="http://via.placeholder.com/300"
+            alt="Picture of Instructor">
+            <hr>
+        </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Slide Toggle
+        </h1>
+        <button class="btn click_btn" id="show_slide_toggle">
+            Slide Toggle
+        </button>
+        <p class="content click_content">
+            Click the button to toggle sliding the picture;
+        </p>
+        <img id="slide_toggle_change"
+            src="http://via.placeholder.com/300"
+            alt="Picture of Instructor">
+            <hr>
+        </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Fade In
+        </h1>
+        <button class="btn click_btn" id="fade_in_click">
+            Fade In
+        </button>
+        <p class="content click_content">
+            Click the button to fade in the picture
+        </p>
+        <img id="fade_in_change"
+            src="http://via.placeholder.com/300"
+            alt="Picture of Instructor">
+            <hr>
+        </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Fade Out
+        </h1>
+        <button class="btn click_btn" id="fade_out_click">
+            Fade Out
+        </button>
+        <p class="content click_content" id="fade_out_change">
+            Click the button to fade out the text
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Add Class
+        </h1>
+        <button class="btn click_btn" id="show_add_class">
+            Add Class
+        </button>
+        <p class="content click_content" id="add_class_change">
+            Click the button to add the "blue" class to the text
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Before
+        </h1>
+        <button class="btn click_btn" id="show_before">
+            Before
+        </button>
+        <p class="content click_content" id="before_change">
+            Click the button to add text before this line.
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            After
+        </h1>
+        <button class="btn click_btn" id="show_after">
+            After
+        </button>
+        <p class="content click_content" id="after_change">
+            Click the button to add text after this line.
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Append
+        </h1>
+        <button class="btn click_btn" id="show_append">
+            Append
+        </button>
+        <p class="content click_content" id="append_change">
+            Click the button to append an element.
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            HTML
+        </h1>
+        <button class="btn click_btn" id="show_html">
+            HTML
+        </button>
+        <p class="content click_content" id="html_change">
+            Click the button to change the HTML of this element
+        </p>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Attr
+        </h1>
+        <button class="btn click_btn" id="show_attr">
+            Attr
+        </button>
+        <p class="content click_content">
+            Click the button to change the link target
+        </p>
+        <a id="attr_change" href="http://apple.com" >Link to the best cell phone maker</a>
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header">
+            Val
+        </h1>
+        <button class="btn click_btn" id="show_val">
+            Val
+        </button>
+        <p class="content click_content">
+            Click the button to change the value of the input box
+        </p>
+        <input type="text" value="default text" id="val_change">
+        <hr>
+    </div>
+    <div class="box click_box">
+        <h1 class="header click_header" >
+            Text
+        </h1>
+        <button class="btn click_btn" id="show_text">
+            Text
+        </button>
+        <p class="content click_content" id="text_change">
+            Click the button to change the text in this element
+        </p>
+    </div>
+</div>
+
+<script src="jquery functions.js"></script>
+
+</html>

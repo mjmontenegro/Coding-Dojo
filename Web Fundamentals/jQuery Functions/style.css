@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px
+}
+hr {
+    margin-top: 20px;
+}
+.btn, .content {
+    display: inline-block;
+    height: 50px;
+}
+.btn {
+    width: 100px;
+    text-align: center;
+    margin-left: 40px;
+}
+p {
+    margin-left: 50px;
+}
+.blue {
+    color: blue;
+}
